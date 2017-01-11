@@ -2,7 +2,6 @@
     <string name="app_name">PetPet</string>
     <string name="log_in">LOG IN</string>
     <string name="register">REGISTER</string>
-    <string name="owner_name">OWNER'S NAME</string>
     <string name="tel">Tel</string>
     <string name="address">Address</string>
     <string name="user">User</string>
