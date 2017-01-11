@@ -20,5 +20,13 @@
     <string name="vaccine">Vaccine</string>
     <string name="no_data">No data</string>
     <string name="neuter">Neuter</string>
+    <string name="create_user">Create Account</string>
+    <string name="g_in">General information</string>
+    <string name="district">District</string>
+    <string name="subdistrict">Sub-District</string>
+    <string name="vet">Veterinarian</string>
+    <string name="id_num">ID Number</string>
+
+
 </resources>
 

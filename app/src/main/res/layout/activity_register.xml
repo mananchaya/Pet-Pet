@@ -10,4 +10,145 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cskku.amornpalang.mananchaya.petpet.registerActivity">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            tools:text="@string/register"
+            android:layout_centerHorizontal="false"
+            android:layout_centerVertical="false"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            tools:text="@string/create_user"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textColorHighlight="@android:color/background_light"
+            android:textColor="@android:color/background_dark"
+            android:background="?attr/colorButtonNormal"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/user"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_marginLeft="30dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/password"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            tools:text="@string/g_in"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textColorHighlight="@android:color/background_light"
+            android:textColor="@android:color/background_dark"
+            android:background="?attr/colorButtonNormal"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:layout_marginLeft="30dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/tel"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            tools:text="@string/address"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textColorHighlight="@android:color/background_light"
+            android:textColor="@android:color/background_dark"
+            android:background="?attr/colorButtonNormal"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/district"
+            android:ems="10"
+            android:id="@+id/editText5"
+            android:layout_marginLeft="30dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/subdistrict"
+            android:ems="10"
+            android:id="@+id/editText6"
+            android:layout_marginLeft="30dp" />
+
+        <RadioButton
+            android:text="@string/vet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:layout_marginLeft="30dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/id_num"
+            android:ems="10"
+            android:id="@+id/editText7"
+            android:layout_marginLeft="80dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="@string/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/background_light" />
 </RelativeLayout>
