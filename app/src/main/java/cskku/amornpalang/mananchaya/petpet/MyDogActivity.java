@@ -3,7 +3,7 @@ package cskku.amornpalang.mananchaya.petpet;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MyDogActivity extends AppCompatActivity {
+public class myDogActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

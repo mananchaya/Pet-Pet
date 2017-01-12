@@ -31,7 +31,7 @@ public class loginActivity extends AppCompatActivity {
         btnGuestButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(loginActivity.this,selectOneActivity.class));
+                startActivity(new Intent(loginActivity.this,searchStrayDogGuestActivity.class));
 
             }
         });
