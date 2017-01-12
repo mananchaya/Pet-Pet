@@ -101,12 +101,14 @@
             android:layout_marginTop="8dp"
             android:layout_marginLeft="5dp" />
 
-        <Button
-            android:text="@string/ok"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/button2"
-            android:background="@color/colorAccent"
-            android:layout_marginTop="15dp" />
     </LinearLayout>
+
+    <Button
+        android:text="@string/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>
