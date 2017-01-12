@@ -8,7 +8,7 @@
     <string name="password">Password</string>
     <string name="vet_Id">Vet ID</string>
     <string name="pet_owner">Pet Owner</string>
-    <string name="my_pet">My pet</string>
+    <string name="my_dog">Your Dog</string>
     <string name="stray_dog">Stray Dog</string>
     <string name="name">Name</string>
     <string name="DOB">Date of Birth</string>
@@ -28,6 +28,9 @@
     <string name="id_num">ID Number</string>
     <string name="next">NEXT</string>
     <string name="guest">GUEST</string>
+    <string name="select">Select One</string>
+    <string name="or">Or</string>
+
 
 
 </resources>
