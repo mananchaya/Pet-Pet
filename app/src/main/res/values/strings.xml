@@ -26,6 +26,7 @@
     <string name="subdistrict">Sub-District</string>
     <string name="vet">Veterinarian</string>
     <string name="id_num">ID Number</string>
+    <string name="next">NEXT</string>
 
 
 </resources>
