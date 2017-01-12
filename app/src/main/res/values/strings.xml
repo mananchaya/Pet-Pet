@@ -27,6 +27,7 @@
     <string name="vet">Veterinarian</string>
     <string name="id_num">ID Number</string>
     <string name="next">NEXT</string>
+    <string name="guest">GUEST</string>
 
 
 </resources>
