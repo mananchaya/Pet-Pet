@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/editText9"
+                android:id="@+id/edtUserLogin"
                 android:hint="@string/user" />
 
             <EditText
@@ -44,14 +44,14 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:ems="10"
-                android:id="@+id/editText10"
+                android:id="@+id/edtPassLogin"
                 android:hint="@string/password" />
 
             <Button
                 android:text="@string/log_in"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button3"
+                android:id="@+id/btnLogin"
                 android:background="@android:color/background_dark"
                 android:textColor="@android:color/background_light"
                 android:layout_marginTop="30dp" />
@@ -70,7 +70,7 @@
             android:text="@string/guest"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button4"
+            android:id="@+id/btnGuest"
             android:layout_weight="1"
             android:background="@color/colorAccent"
             android:layout_marginRight="30dp" />
@@ -79,7 +79,7 @@
             android:text="@string/register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button5"
+            android:id="@+id/btnRegister"
             android:layout_weight="1"
             android:background="@color/colorAccent"
             android:singleLine="false"
