@@ -19,7 +19,7 @@ public class loginActivity extends AppCompatActivity {
         btnGuestButton = (Button) findViewById(R.id.btnGuest);
         btnRegisterButton = (Button) findViewById(R.id.btnRegister);
 
-        // login controller
+        // btnlogin controller
         btnLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,7 +27,7 @@ public class loginActivity extends AppCompatActivity {
             }
         });
 
-        // guest controller
+        // btnguest controller
         btnGuestButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,6 +35,15 @@ public class loginActivity extends AppCompatActivity {
 
             }
         });
+
+        //btnRegister controller
+        btnRegisterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(loginActivity.this,registerActivity.class));
+            }
+        });
+
 
 
     }//main mathon
