@@ -64,7 +64,8 @@
             android:text="@string/stray_dog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button8" />
+            android:id="@+id/button8"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </RelativeLayout>
