@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_my_dog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cskku.amornpalang.mananchaya.petpet.registerMyDogActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:text="@string/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="30dp" />
+
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="105dp"
+            app:srcCompat="@android:drawable/ic_menu_camera"
+            android:id="@+id/imageView8"
+            android:background="@color/common_action_bar_splitter"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText9"
+            android:background="@color/colorInput"
+            android:layout_marginTop="30dp"
+            android:hint="@string/name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText10"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorInput"
+            android:hint="@string/DOB" />
+
+        <TextView
+            android:text="@string/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_marginTop="15dp" />
+
+        <RadioButton
+            android:text="@string/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:text="@string/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:text="@string/neuter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView13"
+            android:layout_marginTop="15dp" />
+
+        <RadioButton
+            android:text="@string/yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp" />
+
+        <RadioButton
+            android:text="@string/no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp" />
+
+        <Button
+            android:text="@string/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="15dp" />
+    </LinearLayout>
+</RelativeLayout>

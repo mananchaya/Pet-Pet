@@ -1,5 +1,6 @@
 package cskku.amornpalang.mananchaya.petpet;
 
+import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -11,6 +12,7 @@ import android.widget.BaseAdapter;
 public class myAdapter extends BaseAdapter {
 
     //Explicit
+    private Context context;
 
 
     @Override

@@ -30,6 +30,12 @@
     <string name="guest">GUEST</string>
     <string name="select">Select One</string>
     <string name="or">Or</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gender">Gender</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
 
 
 </resources>
