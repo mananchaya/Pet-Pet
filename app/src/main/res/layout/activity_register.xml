@@ -49,19 +49,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="@string/user"
             android:ems="10"
             android:id="@+id/editText"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="30dp"
+            android:hint="@string/user" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="@string/password"
             android:ems="10"
             android:id="@+id/editText2"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="30dp"
+            android:hint="@string/password" />
 
         <TextView
             android:text="TextView"
@@ -80,19 +80,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
             android:ems="10"
             android:id="@+id/editText3"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="30dp"
+            android:hint="@string/name" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="@string/tel"
             android:ems="10"
             android:id="@+id/editText4"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="30dp"
+            android:hint="@string/tel" />
 
         <TextView
             android:text="TextView"
@@ -111,19 +111,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="@string/district"
             android:ems="10"
             android:id="@+id/editText5"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="30dp"
+            android:hint="@string/district" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="@string/subdistrict"
             android:ems="10"
             android:id="@+id/editText6"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="30dp"
+            android:hint="@string/subdistrict" />
 
         <CheckBox
             android:text="@string/vet"
@@ -136,10 +136,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="@string/id_num"
             android:ems="10"
             android:id="@+id/editText7"
-            android:layout_marginLeft="80dp" />
+            android:layout_marginLeft="80dp"
+            android:hint="@string/id_num" />
 
     </LinearLayout>
 
