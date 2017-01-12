@@ -38,11 +38,12 @@
         <Button
             android:text="@string/my_dog"
             android:layout_width="match_parent"
-            android:id="@+id/button7"
+            android:id="@+id/btnMyDog"
             android:layout_height="wrap_content"
             android:textIsSelectable="true"
             android:textSize="18sp"
-            android:textAlignment="gravity" />
+            android:textAlignment="gravity"
+            android:background="@color/colorAccent" />
 
         <TextView
             android:text="@string/or"
@@ -64,8 +65,9 @@
             android:text="@string/stray_dog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button8"
-            android:textSize="18sp" />
+            android:id="@+id/btnStrayDog"
+            android:textSize="18sp"
+            android:background="@color/colorAccent" />
 
     </LinearLayout>
 </RelativeLayout>

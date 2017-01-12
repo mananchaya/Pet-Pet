@@ -58,9 +58,10 @@
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="396dp"
+            android:layout_height="368dp"
             android:id="@+id/livStrayDog"
-            android:layout_weight="0.33" />
+            android:layout_weight="0.79"
+            android:layout_marginTop="30dp" />
 
     </LinearLayout>
 

@@ -47,7 +47,8 @@
             android:text="Add"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button9" />
+            android:id="@+id/button9"
+            android:background="@color/colorAccent" />
 
     </LinearLayout>
 
