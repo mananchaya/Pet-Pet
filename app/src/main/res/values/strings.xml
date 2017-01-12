@@ -32,11 +32,21 @@
     <string name="or">Or</string>
     <string name="male">Male</string>
     <string name="female">Female</string>
-    <string name="gender">Gender</string>
+    <string name="sex">Sex</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="ok">OK</string>
-
+    <string name="screening">Screening</string>
+    <string name="characteristic">Characteristic</string>
+    <string name="haircoat">Hair coat</string>
+    <string name="Short">Short</string>
+    <string name="Long">Long</string>
+    <string name="wire">Wire</string>
+    <string name="color">Color</string>
+    <string name="black">Black</string>
+    <string name="white">white</string>
+    <string name="brown">Brown</string>
+    <string name="gray">Gray</string>
 
 </resources>
 

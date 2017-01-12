@@ -27,7 +27,12 @@ public class selectOneActivity extends AppCompatActivity {
         });
 
         //btn Stray Dog Controller
-
+        btnStrayDogButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(selectOneActivity.this,strayDogActivity.class));
+            }
+        });
 
     }//main method
 }//main class

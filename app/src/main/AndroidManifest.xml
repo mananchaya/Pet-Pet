@@ -30,7 +30,10 @@
         <activity
             android:name=".searchStrayDogGuestActivity"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".registerMyDogActivity"></activity>
+        <activity android:name=".registerMyDogActivity" />
+        <activity android:name=".strayDogActivity" />
+        <activity android:name=".registerStrayDogActivity" />
+        <activity android:name=".screeningStrayDogActivity"></activity>
     </application>
 
 </manifest>
