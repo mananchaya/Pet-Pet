@@ -56,11 +56,11 @@
             android:hint="@string/DOB" />
 
         <TextView
-            android:text="@string/gender"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView12"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:text="@string/sex" />
 
         <RadioButton
             android:text="@string/male"
